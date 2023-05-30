@@ -132,8 +132,8 @@ INSERT INTO IncidentType VALUES (DEFAULT, 'Damage on Electric, Water Supply, Nat
 INSERT INTO IncidentType VALUES (DEFAULT, 'Unexploded Ordinance', false);
 INSERT INTO IncidentType VALUES (DEFAULT, 'Other', false);
 
-INSERT INTO logtype VALUES (DEFAULT , 'announcement');
-INSERT INTO logtype VALUES (DEFAULT, 'alert');
+INSERT INTO logtype VALUES (0 , 'announcement');
+INSERT INTO logtype VALUES (1, 'alert');
 
 -- NOTE: don't use default ids until we remove the use of constants referring to a specific value
 INSERT INTO systemrole VALUES (1, 'user');
